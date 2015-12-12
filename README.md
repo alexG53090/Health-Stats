@@ -10,6 +10,7 @@
 var health = require('healthstats');
 ```
 ##Public Methods:
+
 #####Body Masss Index - BMI
 ```javascript
 health.female.BMI(weight, height);
