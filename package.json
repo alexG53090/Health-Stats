@@ -1,0 +1,28 @@
+{
+  "name": "healthstats",
+  "version": "1.0.0",
+  "description": "Calculate BMI, BMR, and IBW.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexG53090/Health-Stats.git"
+  },
+  "keywords": [
+    "BMI",
+    "BMR",
+    "IBW"
+  ],
+  "author": "Alex Bennett <alexandergraybennett@gmail.com> (http://thedope.agency)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexG53090/Health-Stats/issues"
+  },
+  "homepage": "https://github.com/alexG53090/Health-Stats#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
