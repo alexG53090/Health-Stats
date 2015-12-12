@@ -1,5 +1,4 @@
-module.exports = {
-  var male = {
+module.exports.male = {
     BMI: function(weight, height){
       var BMI = (weight / (height * height)) * 703;
       this.BMI = BMI;
@@ -38,7 +37,7 @@ module.exports = {
       return IBW;
     },
   };
-  var female = {
+module.exports.female = {
     BMI: function(weight, height){
       var BMI = (weight / (height * height)) * 703;
       this.BMI = BMI;
@@ -77,4 +76,3 @@ module.exports = {
       return IBW;
     },
   };
-}
