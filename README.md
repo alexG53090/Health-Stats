@@ -1,4 +1,4 @@
-##Public Methods
+##Public Methods:
 #####Body Masss Index - BMI
 ```javascript
 female.BMI(weight, height);
