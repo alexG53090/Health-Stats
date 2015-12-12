@@ -1,4 +1,4 @@
-# Health-Stats
+##Public Methods
 #####Body Masss Index - BMI
 ```javascript
 female.BMI(weight, height);
@@ -12,13 +12,7 @@ female.BMR(weight, height, age);
 male.BMR(weight, height, age);
 ```
 
-#####BMR by lifestyle:
-
-  - Sedentary
-  - Light Activity
-  - Moderate Activity
-  - Very Active
-  - Extremely Active
+######BMR by lifestyle:
 
 > In order to call the following methods, you must first set a BMR value, or else you must pass a BMR value manually.
 ``` javascript
