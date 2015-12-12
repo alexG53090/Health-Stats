@@ -5,6 +5,7 @@
 #####How to:
 1. npm install healthstats
 2. include healthstats in your .js file
+3. Use inches for 'height' and pounds for 'weight'
  
 ```javascript
 var health = require('healthstats');
