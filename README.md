@@ -17,20 +17,20 @@ male.BMR(weight, height, age);
 > In order to call the following methods, you must first set a BMR value, or else you must pass a BMR value manually.
 ``` javascript
 //Sedentary 
-female.noActivity(BMR);
-male.noActivity(BMR);
+female.noActivity(female.BMR);
+male.noActivity(male.BMR);
 //Light Activity 
-female.lightActivity(BMR);
-male.lightActivity(BMR);
+female.lightActivity(female.BMR);
+male.lightActivity(male.BMR);
 //Moderate Activity 
-female.moderateActivity(BMR);
-male.moderateActivity(BMR);
+female.moderateActivity(female.BMR);
+male.moderateActivity(male.BMR);
 //Very Active
-female.veryActive(BMR);
-male.verActive(BMR)
+female.veryActive(female.BMR);
+male.verActive(male.BMR)
 //Extremely Active
-female.extremelyActive(BMR);
-male.extremelyActive(BMR);
+female.extremelyActive(female.BMR);
+male.extremelyActive(male.BMR);
 ```
 
 #####Ideal Body Weight - IBW
