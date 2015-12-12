@@ -36,7 +36,7 @@ module.exports.male = {
       }
       return IBW;
     },
-  };
+};
 module.exports.female = {
     BMI: function(weight, height){
       var BMI = (weight / (height * height)) * 703;
@@ -75,4 +75,4 @@ module.exports.female = {
       }
       return IBW;
     },
-  };
+};
