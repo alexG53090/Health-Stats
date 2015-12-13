@@ -1,6 +1,6 @@
 {
   "name": "healthstats",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Calculate BMI, BMR, and IBW.",
   "main": "index.js",
   "scripts": {
