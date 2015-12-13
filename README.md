@@ -2,7 +2,7 @@
 
 ### Node module for calculating BMI, BMR and IBW:
 
-#####How to:
+##### How to:
 1. npm install healthstats
 2. include healthstats in your .js file
 3. Use inches for 'height' and pounds for 'weight'
@@ -10,14 +10,14 @@
 ```javascript
 var health = require('healthstats');
 ```
-##Public Methods:
+## Public Methods:
 
-#####Body Masss Index - BMI
+##### Body Masss Index - BMI
 ```javascript
 health.female.BMI(weight, height);
 health.male.BMI(weight, height);
 ```
-#####Basal Metabolic Rate - BMR
+##### Basal Metabolic Rate - BMR
 >The amount of calories you need to
 maintain body weight.
 ```javascript
@@ -25,7 +25,7 @@ health.female.BMR(weight, height, age);
 health.male.BMR(weight, height, age);
 ```
 
-######BMR by lifestyle:
+###### BMR by lifestyle:
 
 > In order to call the following methods, you must first set a BMR value, or else you must pass a BMR value manually.
 ``` javascript
@@ -46,13 +46,13 @@ health.female.extremelyActive(female.BMR);
 health.male.extremelyActive(male.BMR);
 ```
 
-#####Ideal Body Weight - IBW
+##### Ideal Body Weight - IBW
 ```javascript
 health.female.IBW(height);
 health.male.IBW(height);
 ```
 
-######Author: Alex Bennett
+###### Author: Alex Bennett
 > Licesnse: MIT
 
 
