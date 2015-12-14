@@ -57,4 +57,10 @@ health.male.IBW(height);
 ###### Author: Alex Bennett
 > Licesnse: MIT
 
+### Contribute! PR's are MORE than welcome.
+Going forward,  would like to include methods for:
+- Blood Alcohol Content
+- Eyesight
+- Anyhting else you think would fit under 'healthstats'
+
 
